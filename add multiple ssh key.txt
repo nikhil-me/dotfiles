@@ -1,0 +1,19 @@
+1.go to .ssh folder 
+2.make config file if not present
+3. paste the below code and save it
+
+Host myshortname realname.example.com
+    HostName realname.example.com
+    IdentityFile ~/.ssh/realname_rsa # private key for realname
+    User remoteusername
+
+Host myother realname2.example.org
+    HostName realname2.example.org
+    IdentityFile ~/.ssh/realname2_rsa
+    User remoteusername
+
+Example : 
+Host github github.com
+     Hostname github.com
+     IdentityFile ~/.ssh/realname_rsa # private key for realname
+     User remoteusername
