@@ -14,3 +14,9 @@ alias emptytrash="rm -rf ~/.local/share/Trash/*"
 alias mv='mv -v'
 alias rm='rm -i -v'
 alias cp='cp -v'
+
+# Shortcuts
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias h="history"
+
