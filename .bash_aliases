@@ -20,3 +20,8 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias h="history"
 
+#install shortcut
+alias install="sudo apt-get install"
+
+#update shortcut
+alias update="sudo apt-get update"
