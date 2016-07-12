@@ -1,0 +1,44 @@
+[alias]
+    a = add
+
+    s = status
+
+    b = branch
+
+    s2 = stash
+
+    p = pull
+
+    f = fetch
+
+    co = checkout
+
+    cm = commit -m
+
+    cob = checkout -b
+
+    amend = commit -a --amend
+
+    com = checkout master
+
+    rb = "!git pull --rebase origin $(git branch-name)"
+
+    branch-name = "!git rev-parse --abbrev-ref HEAD"
+
+    go = "!git push -u origin $(git branch-name)"
+
+    gotag = "!git push --tags origin $(git branch-name)" 
+
+    unstage = reset HEAD
+
+    diffc = diff --cached
+
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+    hist = log --pretty=format:\"%h %ad | [%an] %s%d\" --graph --date=short
+
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+    force = "!git push -f origin $(git branch-name)"
+	
+    pl  = "!git pull origin $(git branch-name)"
